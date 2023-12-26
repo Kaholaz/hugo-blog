@@ -46,7 +46,7 @@ hugo new content posts/hugo
 Nå har jeg en fil ny fil (`content/posts/hugo.md`). Denne kan man fint begynne
 å skrive i og endre på med ditt yndlingstekstredigeringsprogram. Personlig
 bruker jeg [Neovim](https://neovim.io/). Det at jeg nå kan klare meg uten
-datamusa når jeg lager et nytt innleg, ser jeg på som en veldig positiv ting.
+datamusa når jeg lager et nytt innlegg, ser jeg på som en veldig positiv ting.
 
 En annen fordel med at alle innleggene mine er markdown filer, er at det er
 ekstremt kjekt å jobbe med tekstfiler! Om jeg skal endre på innholdet, kan jeg
@@ -76,9 +76,11 @@ Det å sette opp bloggen var egentlig veldig lett! Slik var fremgangsmåten:
 1. Enjoy!
 
 ### Deployment
-Jeg er så heldig å ha tilgang til en server der jeg kan serevere hva enn jeg
+Jeg er så heldig å ha tilgang til en server der jeg kan servere hva enn jeg
 måtte ønske! Det gjør jobben veldig lett :) På serveren har jeg en mappe
-(`/var/www/kaholaz.net/`), der jeg putter ferdiggenerert HTML. Får å gjøre denne forflytningen lettvint, har jeg laget et kort skript for å generere html og flytte den over til serveren.
+(`/var/www/kaholaz.net/`), der jeg putter ferdiggenerert HTML. Får å gjøre
+denne forflytningen lettvint, har jeg laget et kort skript for å generere HTML
+og flytte det over til serveren.
 ```sh
 hugo || exit
 rsync public/ vsbugge@navi.samfundet.no:/var/www/kaholaz.net/ -r --delete -P
