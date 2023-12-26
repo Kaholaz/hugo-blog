@@ -1,5 +1,5 @@
 baseurl      = "https://kaholaz.net"
-title        = "Min blogg"
+title        = "Sebastian Bugge"
 languageCode = "nb-NO"
 theme        = "hello-friend-ng"
 paginate     = 10
@@ -27,6 +27,11 @@ disableSitemap = false
 disable404     = false
 disableHugoGeneratorInject = false
 
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
 [permalinks]
   posts = "/posts/:year/:month/:title/"
 
@@ -37,7 +42,7 @@ disableHugoGeneratorInject = false
   dateformNumTime = "2006-01-02 15:04"
 
   # Subtitle for home
-  homeSubtitle = "A simple and beautiful blog"
+  homeSubtitle = "problemløser, tenker, student"
 
   # Set disableReadOtherPosts to true in order to hide the links to other posts.
   disableReadOtherPosts = false
@@ -49,9 +54,12 @@ disableHugoGeneratorInject = false
   # enableGlobalLanguageMenu = true
 
   # Metadata mostly used in document's head
-  description = "My new homepage or blog"
+  description = "En liten blogg for personlige prosjekter og tanker."
   keywords = "homepage, blog"
   images = [""]
+
+	[params.logo]
+		logoText = "cd $HOME"
 
 [taxonomies]
     category = "blog"
@@ -64,9 +72,9 @@ defaultContentLanguageInSubdir = true
 [menu]
   [[menu.main]]
     identifier = "about"
-    name       = "About"
+    name       = "Om"
     url        = "about/"
   [[menu.main]]
     identifier = "posts"
-    name       = "Posts"
+    name       = "Innlegg"
     url        = "posts/"
