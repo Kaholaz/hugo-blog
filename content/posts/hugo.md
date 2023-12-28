@@ -21,7 +21,7 @@ kompisen din og si at du kan lage nettsider.
 Den forrige bloggen min var laget med [Wordpress](https://wordpress.com/), en
 grafisk nettsidebygger som er laget med PHP og MySQL. Programmet kan brukes til
 å lage alt fra blogger til nettbutikker. For mitt bruk, fungerte det egentlig
-ganske greit, men det var et par punkter gjorde at det helt var helt optimalt.
+ganske greit, men det var et par punkter gjorde at det ikke var helt optimalt.
 
 En ting jeg ikke likte med Wordpress, var fokuset på utseende. Programmet er
 designet slik at man lett skal kunne plassere ulike elementer i et
