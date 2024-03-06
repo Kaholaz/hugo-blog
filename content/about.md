@@ -10,5 +10,5 @@ Jeg så hyggelig at du tok deg tid til å se gjennom min lille nettside! Her
 skriver jeg om det som faller meg inn. Mesteparten av tiden handler det om
 teknologi, erfaringer eller kuriositeter.
 
-Om du er iteressert i å ta kontakt med meg kan jeg nås ved epost på <a
+Om du er interessert i å ta kontakt med meg kan jeg nås ved epost på <a
 href="mailto:vkbugge@hotmail.com">vkbugge@hotmail.com</a>.
